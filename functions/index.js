@@ -7,7 +7,7 @@ const cors = require('cors')({
   credentials: true
 });
 const { v2: cloudinary } = require('cloudinary');
-const fetch = require('node-fetch'); // Certifique-se que node-fetch está instalado, teste JL...
+const fetch = require('node-fetch'); // Certifique-se que node-fetch está instalado,
 
 admin.initializeApp();
 
